@@ -1,0 +1,259 @@
+/**********************************
+GENERAL
+***********************************/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+/**********************************
+HEADING
+***********************************/
+header {
+  float: left;
+  margin: 0 0 20px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  margin: 15px, 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin;
+  -5px 0 0;
+  font-weight: normal;
+}
+
+#Artair {
+  margin: 0 0 -10px 0;
+}
+
+/**********************************
+NAVIGATION
+***********************************/
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 900;
+  padding: 15px 10px;
+}
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+h3 {
+  font-family: 'Roboto', sans-serif;
+  margin: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-size: 2em;
+  clear: both;
+}
+
+li {
+  border-radius: 5px;
+}
+
+.gallery2 li {
+  max-height: 300px;
+}
+
+.gallery,
+.gallery2,
+.add,
+#add {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery li,
+.add li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #558752;
+}
+
+.gallery li a img,
+.gallery2 li a img {
+  border-bottom: 5px solid #153513;
+}
+
+.gallery li p,
+.gallery2 li p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.9em;
+  color: #ddd;
+  text-align: center;
+  height: 100px;
+}
+
+.gallery2 li,
+#add li {
+  float: none;
+  width: 95%;
+  margin: 2.5%;
+  background-color: #558752;
+}
+
+.add li p,
+#add li p {
+  margin: 0;
+  padding: 3%;
+  font-size: 0.9em;
+  color: #ddd;
+  text-align: center;
+}
+
+.add li {
+  height: 260px;
+  padding-top: 20px;
+}
+
+/**********************************
+FOOTER
+***********************************/
+footer {
+  font-size: 0.75emj;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+.about {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  margin: 0 0 0 0px;
+  padding: 0;
+  color: #ddd;
+  width: 100%;
+}
+
+.about p {
+  margin: 0;
+  padding: 5%;
+  background-color: #558752;
+  border-radius: 10px;
+}
+
+.info {
+  width: 100%;
+  margin: 2.5%;
+}
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+/**********************************
+COLORS
+***********************************/
+/* site body */
+body {
+  background-color: #151715;
+  color: #599a68;
+}
+
+/* green header */
+header {
+  background: #558752;
+  border-color: #153513;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #8CC298;
+}
+
+/* nav background on mobile devices */
+nav {
+  background: #365534;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #8CC298;
+}
